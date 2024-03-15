@@ -1,5 +1,5 @@
 - *Shortcut to open a new Cell is SHIFT + ENTER in jupyter*
-- *append means to add any new number*
+- *Append means to add any new number*
 
 # Variables
 - Are containers for stroring data values.
