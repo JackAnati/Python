@@ -1,4 +1,5 @@
 *Shortcut to open a new Cell is SHIFT + ENTER in jupyter*
+*append means to add*
 
 # Variables
 - Are containers for stroring data values.
@@ -54,4 +55,8 @@ Example:
 
 
 
+# List
+There are two ways to remove items from a list. the first method is called remove(), which removes an item based on its value, not its index. For instance, if we want to remove the value 5 from myList, we can type *myList.remove(5)* and then print myList. The second method to remove items from a list is to use pop(). this method removes and returns the item at the end of the list.
 
+ # Tuples and Sets
+ A set is defined using curly brackets like this {}. mySet = list(set(myList)) is used to remove duplicates from a list.
