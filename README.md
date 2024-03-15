@@ -71,3 +71,16 @@ Default dict - you must ipmort defaultdict from collections package.
 A list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over. It also enables you to filter or apply functions to every item in a list. A list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over. It also enables you to filter or apply functions to every item in a list. Introduce you to a new string function called "split". This function allows you to split a string based on a given character or string. For example, let's take the string "myString" which reads "my name is Ryan Mitchell, I live in Boston." If we apply the "split" function to it, we can split the string into two sentences using the period as the delimiter. Now, let's apply the "cleanWord" function to our string using a list comprehension. This will result in a clean list of all the words in the text. If we wanted to filter this list to only include small words, such as those with one or two letters, we could add a condition using the "len" function.
 
 # Basic Control Flow
+1, 2, fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, FizzBuzz, 16
+
+for n in range(1, 101):
+    if n%15 ==0:
+        print('FizzBuzz')
+    else:
+        if n % 3 == 0:
+            print('Fuzz')
+else:
+    if n % 5 == 0:
+        print('Buzz')
+    else:
+        print(n)
