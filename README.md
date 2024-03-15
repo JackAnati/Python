@@ -39,7 +39,7 @@ given:  round(14/3,2) comma 2 means the how many numbers must be after the comma
 - Given 5!
 - Solution 
 - 5! = 5*4*3*2*1 =120
-factorial are only defined for positive integers(including 0). When its a negative integers or 1,2(number with comma) words it will return None.
+- factorial are only defined for positive integers(including 0). When its a negative integers or 1,2(number with comma) words it will return None.
 
 # Alternative number Types
 Example:
