@@ -1,5 +1,5 @@
-*Shortcut to open a new Cell is SHIFT + ENTER in jupyter*
-*append means to add*
+- *Shortcut to open a new Cell is SHIFT + ENTER in jupyter*
+- *append means to add any new number*
 
 # Variables
 - Are containers for stroring data values.
@@ -39,7 +39,7 @@ given:  round(14/3,2) comma 2 means the how many numbers must be after the comma
 *Factorial Challenge*
 - Given 5!
 - Solution 
-- 5! = 5*4*3*2*1 =120
+- 5! = 5*4*3*2*1 = 120
 - factorial are only defined for positive integers(including 0). When its a negative integers or 1,2(number with comma) words it will return None.
 
 # Alternative number Types
@@ -54,9 +54,20 @@ Example:
 - =5				                        |       =63                                          |      = 427
 
 
+# List slicing 
+If index says start only it print everithing e.g print myList[1::]. You dont print the end of the index you only print  a number before the end index e.g end-1. pop to remove items from a list
 
 # List
 There are two ways to remove items from a list. the first method is called remove(), which removes an item based on its value, not its index. For instance, if we want to remove the value 5 from myList, we can type *myList.remove(5)* and then print myList. The second method to remove items from a list is to use pop(). this method removes and returns the item at the end of the list.
 
  # Tuples and Sets
- A set is defined using curly brackets like this {}. mySet = list(set(myList)) is used to remove duplicates from a list.
+ A set is defined using curly brackets like this {}. mySet = list(set(myList)) is used to remove duplicates from a list. Tuple are similar to lists, but they're declared with parentheses() instead of square brackets.
+
+ # Dictionaries
+trailing comma - are found at the end of the last key value pair. 
+Default dict - you must ipmort defaultdict from collections package.
+
+# list comprehension
+A list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over. It also enables you to filter or apply functions to every item in a list. A list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over. It also enables you to filter or apply functions to every item in a list. Introduce you to a new string function called "split". This function allows you to split a string based on a given character or string. For example, let's take the string "myString" which reads "my name is Ryan Mitchell, I live in Boston." If we apply the "split" function to it, we can split the string into two sentences using the period as the delimiter. Now, let's apply the "cleanWord" function to our string using a list comprehension. This will result in a clean list of all the words in the text. If we wanted to filter this list to only include small words, such as those with one or two letters, we could add a condition using the "len" function.
+
+# Basic Control Flow

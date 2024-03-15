@@ -19,4 +19,12 @@ class Canvas:
     def clear(self):
         os.system('cls' if os.name == 'nt' else 'clear')
 
-   # def print(self):
+    def print(self):
+        self.clear()
+    for y in range(self._y):
+        print(' '.join([col[y] for col in dels._canvas]))
+
+class TerminalScribe:
+    def __init__(self,canvas):
+        self.canvas = canvas
+        self.trail = '.'
