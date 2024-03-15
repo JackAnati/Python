@@ -36,21 +36,21 @@ when you have this error *TypeError:Object() take no arguments*. This error is r
 given:  round(14/3,2) comma 2 means the how many numbers must be after the comma.
 
 *Factorial Challenge*
-Given 5!
-Solution 
-5! = 5*4*3*2*1 =120
+- Given 5!
+- Solution 
+- 5! = 5*4*3*2*1 =120
 factorial are only defined for positive integers(including 0). When its a negative integers or 1,2(number with comma) words it will return None.
 
 # Alternative number Types
 Example:
-Int(‘100’)		  	int(‘100’,2)
-= 100				      =4
+- Int(‘100’)		  	int(‘100’,2)
+- = 100				      =4
  
-Int(‘101’,2)		                        		int(‘333’,4)		                              		int(‘1ab’,16)
-=1*(2**2) + 0*(2**1) + 1*(2**0)            	=3*(4**2) + 3(4**1) + 3*(4**0)	                	=1*(16**2) + 10*(16**1) +11*(16**1)
-=(1*4) + (0*2) + (1*1)			                =(3*16) + (3*4) + (3*1)		                       	= (1*256) + (10*16) + (11*1)
-= 4+0+1			                              	= 48+12+3			                                   	= 256 + 160 + 11
-=5				                                	=63                                               = 427
+- Int(‘101’,2)		                        		int(‘333’,4)		                              		int(‘1ab’,16)
+- =1*(2**2) + 0*(2**1) + 1*(2**0)            	=3*(4**2) + 3(4**1) + 3*(4**0)	                	=1*(16**2) + 10*(16**1) +11*(16**1)
+- =(1*4) + (0*2) + (1*1)			                =(3*16) + (3*4) + (3*1)		                       	= (1*256) + (10*16) + (11*1)
+- = 4+0+1			                              	= 48+12+3			                                   	= 256 + 160 + 11
+- =5				                                	=63                                               = 427
 
 
 
