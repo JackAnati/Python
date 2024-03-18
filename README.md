@@ -15,6 +15,7 @@
 - Allows for the storage of a list of values in a single variable.
 
 # Operators
+Operators are symbols or special tokens that are used to perform operations on operands. Operands can be variable, value, and expressions. python supports variours types of operators that allow you to carry out arithmethic, logical, comparison,bitwse, and other operations. 
 - They are used to manipulate and perform on data.
 - Most familiar type of operator is the arithmentic operator, which is used for mathematical calucation.
 
