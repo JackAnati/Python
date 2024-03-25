@@ -17,4 +17,4 @@ the "code" attribute of python function can be used to confirm that functions ar
 # Lambda Fuctions
 These are a way to represent a function without giving it a variable name.
 
-you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
+* you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.*
