@@ -34,3 +34,5 @@ One of your favorite things to do in Python may be string parsing. To demonstrat
 
 *what is super() used for inside a class?* is to get an instance of the parrent class
 you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
+
+*why is the self variable used inside a class?* - It's the conventional variable name to refer to the class instance
