@@ -32,5 +32,5 @@ One of your favorite things to do in Python may be string parsing. To demonstrat
 - Then use the split function to turn the sentence into a list of words, which can be added to the set. 
 - Finally, print the set of words. 
 
-- *what is super() used for inside a class?* is to get an instance of the parrent class
+*what is super() used for inside a class?* is to get an instance of the parrent class
 you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
