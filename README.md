@@ -18,16 +18,3 @@ the "code" attribute of python function can be used to confirm that functions ar
 These are a way to represent a function without giving it a variable name.
 
 you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
-
-# Anatomy of a Class
-
-# Instance and Static Methods
-
-One of your favorite things to do in Python may be string parsing. To demonstrate, create a class called Word Set that contains a set of words. 
-
-- Start with an empty set and add to it by passing in big blocks of text, punctuation and all. 
-- Add text using the method add text, which first calls the method clean text to remove the punctuation and make everything lowercase. 
-- Then use the split function to turn the sentence into a list of words, which can be added to the set. 
-- Finally, print the set of words. 
-
-- *what is super() used for inside a class?* is to get an instance of the parrent class
