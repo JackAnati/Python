@@ -6,4 +6,15 @@
 
 # Variables and Scope
 - Locals - Why is it named locals? These are the variable names that are only accessible locally within the function. Remember, variables can be defined by any name within the function definition, and it will be available anywhere within that function. However, trying to reference a variable outside its scope will result in an error. 
-- Globals() - 
+- Globals() - Running the code would result in so many items, some of which are Python's pre-built variables that will come in handy when working with classes and packages. 
+
+# Variables as Functions
+Variables and functions both have names and data associated with them. in python a function is represented as an object.
+
+# __code__ 
+the "code" attribute of python function can be used to confirm that functions are just variables in python.
+
+# Lambda Fuctions
+These are a way to represent a function without giving it a variable name.
+
+you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
