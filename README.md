@@ -36,3 +36,6 @@ One of your favorite things to do in Python may be string parsing. To demonstrat
 you dont use append in tuple. you will get this error AttributeError: 'tuple' object has no attribute 'append'.
 
 *why is the self variable used inside a class?* - It's the conventional variable name to refer to the class instance
+
+Remember that thing that occurs when something is divided by zero? it results in zero division error.
+
