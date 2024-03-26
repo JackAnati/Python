@@ -1,0 +1,9 @@
+'Simple is better than complex. '
+'Complex is better than complecated. '
+'Flat is better than nested. '
+'Sparse is better than dense.'
+'Readability counts. '
+'Line 3
+Line 4
+Line 3
+Line 4
