@@ -68,6 +68,6 @@ From multiprocessing import Process. Before you run this, there is a small hitch
 # 5. Fundamentals of Wrking with Files
 - *Reading Files* - 
 - *Writing files* - 
-- *Appending Files* -
+- *Appending Files* - 
 - *CSV* -  
 
