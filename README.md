@@ -9,6 +9,8 @@
 - x = 5
 - y = "Anati"
 
+- If we pass A zero value to bool() construtor, it will treat as a boolean False
+- Any non-zero value is boolean True
 
 # Data Structures
 - Are containers for different kinds of data. 
@@ -60,11 +62,23 @@ If index says start only it print everithing e.g print myList[1::]. You dont pri
 
 # List
 There are two ways to remove items from a list. the first method is called remove(), which removes an item based on its value, not its index. For instance, if we want to remove the value 5 from myList, we can type *myList.remove(5)* and then print myList. The second method to remove items from a list is to use pop(). this method removes and returns the item at the end of the list.
+- The append() method appends an item to the end of the list. therefore, we cannot pass the index number to it.
 
  # Tuples and Sets
  A set is defined using curly brackets like this {}. mySet = list(set(myList)) is used to remove duplicates from a list. Tuple are similar to lists, but they're declared with parentheses() instead of square brackets.
+ - When we access a tuple using the subscript atuple[start : end] operator, it will always return a tuple. We also call it tuple slicing. (taking a subset of a tuple using the range of indexes).
+ The union() method returns a new set with all items from both sets by removing duplicates
+- Difference_update() method removes the items that exist in both sets
+- .discard method remove item that doen't exist
+- set does not allow duplicate items
+- issubset() method returns True if all items in the set exists in the specified set, otherwise it return false. use the <= operator
+- issuperset() method returns True if all items in the specified set exists in the original set, otherwise it returns False. use the >= operator
+- symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets. Meaning: The returned set contains a mix of items that are not present in both sets. use the ^ operator
+- The isdisjoint() method returns True if none of the items are present in both sets, otherwise, it returns False.
+- The remove() and discard() method removes the specified item from a set.
 
- # Dictionaries
+
+# Dictionaries
 trailing comma - are found at the end of the last key value pair. 
 Default dict - you must ipmort defaultdict from collections package.
 
@@ -85,3 +99,20 @@ else:
         print('Buzz')
     else:
         print(n)
+
+# Notes
+- We cannot add strings and numbers together using the + operator. Either we can use the + operator to concatenate strings or add numbers.
+- We cannot use float numbers in range() function.
+- We can use the else block after the end of for loop and while loop. The else block is used to check the successful execution of a loop. If the loop executed successfully without any issues, the else block executes.
+- We can do simultaneous assignments to more than one variable.
+- The set is an unordered data structure. Therefore, we cannot access/add/remove its elements by index number.
+- The == (Equal To) operator used to compare the values of two objects and The is operator compares the identity of two objects.
+- Immutable - means string cannot be changed after  they are created.
+- Strings in Python are surrounded by either single quotation marks or double quotation marks. Also, You can create a multiline string using three      quotation marks.
+- math.ceil - round a number up to the nearest number. Method returns the smallest integer not less than x.
+- math.floor - round a number down ti the nearest number. Method returns the largest not greater than x.
+- Nested loop - is a loop within a loop, an inner loop within the body of an outer one.
+- In Python, the pass is a null operation. The pass statement is useful when you want to write the pseudo code that you want to implement in the future.
+- In Python, any non-zero value or nonempty container is considered TRUE.
+- The title() function capitalize() the first letter of every word of the String.
+- The capitalize() function converts only a first character to a capital letter and all remaining characters to lowercase.
